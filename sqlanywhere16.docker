@@ -1,0 +1,6 @@
+FROM superus/sqlanywhere:16-latest
+
+COPY ./superus_ipos.db /superus_ipos.db
+
+ENV DB_FILE "/superus_ipos.db"
+ENV DB_NAME "superus_ipos"
